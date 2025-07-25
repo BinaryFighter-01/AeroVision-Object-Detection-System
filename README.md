@@ -104,12 +104,3 @@ This is an internship project, but contributions are welcome! To contribute:
 2. Create a feature branch (`git checkout -b feature-name`).
 3. Submit a pull request with a clear description.
 
-## License
-[MIT License](LICENSE).
-
-## Acknowledgments
-- **Ultralytics** for the YOLOv8 framework.
-- **Roboflow Universe** for the annotated dataset.
-- Internship team for support and guidance.
-
----
