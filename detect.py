@@ -1,10 +1,7 @@
 from ultralytics import YOLO
 import cv2
 
-
 # Data Annoted from roboflow Universe
-
-
 # Load the YOLOv8 model
 model = YOLO('yolov8m.pt')  # Ensure the .pt file is in the same directory
 
@@ -15,7 +12,6 @@ while True:
     ret, frame = cap.read()
     if not ret:
         break
-
     # Perform inference
     results = model(frame)
 
@@ -26,6 +22,5 @@ while True:
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
-
 cap.release()
 cv2.destroyAllWindows()
