@@ -1,4 +1,4 @@
-# UAV Object Detection with YOLOv8
+# AeroVision Object Detection System
 
 This repository contains the first version of an object detection system developed for a UAV (Unmanned Aerial Vehicle) project during an internship. The system is built using **YOLOv8** and a custom-trained model trained on a dataset from **Roboflow Universe**. It detects a variety of objects, including cars, cell phones, water bodies, fire, birds, planes, rockets, buses, persons, laptops, and more. Designed for real-time detection, it has been tested with a webcam and is intended for UAV applications such as environmental monitoring, surveillance, or navigation.
 
